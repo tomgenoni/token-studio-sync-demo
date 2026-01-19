@@ -5,7 +5,6 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "light": "enabled",
-      "theme": "enabled",
       "palette": "source",
       "dimension": "source"
     },
@@ -17,7 +16,6 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "dark": "enabled",
-      "theme": "enabled",
       "palette": "source",
       "dimension": "source"
     },
