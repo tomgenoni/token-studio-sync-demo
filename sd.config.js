@@ -5,8 +5,9 @@ import StyleDictionary from 'style-dictionary';
 register(StyleDictionary);
 
 // Get the tokens-studio transforms, remove name/camel to keep name/kebab
-const tsTransforms = StyleDictionary.hooks.transformGroups['tokens-studio']
-  .filter(t => t !== 'name/camel');
+const tsTransforms = StyleDictionary.hooks.transformGroups['tokens-studio'].filter(
+  (t) => t !== 'name/camel',
+);
 StyleDictionary.registerTransformGroup({
   name: 'tokens-studio/css',
   transforms: tsTransforms,
@@ -18,7 +19,10 @@ const cssPrefix = 'pdl';
 StyleDictionary.registerFormat({
   name: 'cpp/header',
   format: ({ dictionary, file }) => {
-    const header = file.destination.replace('.h', '').toUpperCase().replace(/[^A-Z0-9]/g, '_');
+    const header = file.destination
+      .replace('.h', '')
+      .toUpperCase()
+      .replace(/[^A-Z0-9]/g, '_');
 
     const formatValue = (token) => {
       const value = token.$value ?? token.value;
@@ -46,7 +50,8 @@ StyleDictionary.registerFormat({
     dictionary.allTokens.forEach((token) => {
       const name = formatName(token.name);
       const value = formatValue(token);
-      const type = (token.$type === 'color' || token.type === 'color') ? 'const unsigned int' : 'const auto';
+      const type =
+        token.$type === 'color' || token.type === 'color' ? 'const unsigned int' : 'const auto';
       output += `    ${type} ${name} = ${value};\n`;
     });
 
@@ -74,12 +79,12 @@ StyleDictionary.registerFormat({
   format: ({ dictionary, options }) => {
     const { darkTokens, modeTokenNames } = options;
 
-    // Convert token references like {colors.black} to var(--pdl-colors-black)
-    // Handles both standalone refs and embedded refs like rgba({colors.black}, 0.3)
+    // Convert token references like {color.black} to var(--pdl-color-black)
+    // Handles both standalone refs and embedded refs like rgba({color.black}, 0.3)
     const refToVar = (ref) => {
       if (!ref || typeof ref !== 'string') return ref;
       return ref.replace(/\{([^}]+)\}/g, (_, path) => {
-        // Convert path to kebab-case: colors.gray.700 -> pdl-colors-gray-700
+        // Convert path to kebab-case: color.gray.700 -> pdl-color-gray-700
         const varName = path.replace(/\./g, '-');
         return `var(--${cssPrefix}-${varName})`;
       });
@@ -87,7 +92,7 @@ StyleDictionary.registerFormat({
 
     // Create a map of dark token original values by unprefixed name
     const darkOriginalValues = new Map();
-    darkTokens.forEach(token => {
+    darkTokens.forEach((token) => {
       const original = token.original?.$value ?? token.original?.value;
       const unprefixedName = token.name.replace(`${cssPrefix}-`, '');
       darkOriginalValues.set(unprefixedName, original);
@@ -97,7 +102,7 @@ StyleDictionary.registerFormat({
     let output = ':root {\n';
     let darkOutput = '';
 
-    dictionary.allTokens.forEach(token => {
+    dictionary.allTokens.forEach((token) => {
       const resolvedValue = token.$value ?? token.value;
       const unprefixedName = token.name.replace(`${cssPrefix}-`, '');
 
@@ -117,9 +122,12 @@ StyleDictionary.registerFormat({
 
     output += '}\n\n@media (prefers-color-scheme: dark) {\n  :root {\n';
     // Indent dark output for nesting inside media query
-    darkOutput.split('\n').filter(line => line).forEach(line => {
-      output += `  ${line}\n`;
-    });
+    darkOutput
+      .split('\n')
+      .filter((line) => line)
+      .forEach((line) => {
+        output += `  ${line}\n`;
+      });
     output += '  }\n}\n';
 
     return output;
@@ -129,21 +137,20 @@ StyleDictionary.registerFormat({
 // First pass: collect color tokens from each theme
 for (const theme of themes) {
   const sd = new StyleDictionary({
-    source: [
-      'tokens/palette.json',
-      `tokens/${theme}.json`,
-    ],
+    source: ['tokens/palette.json', `tokens/${theme}.json`],
     preprocessors: ['tokens-studio'],
     platforms: {
       collect: {
         transformGroup: 'tokens-studio/css',
         prefix: cssPrefix,
         buildPath: 'build/css/',
-        files: [{
-          destination: `_${theme}_colors.json`,
-          format: 'json/collect',
-          filter: (token) => token.$type === 'color',
-        }],
+        files: [
+          {
+            destination: `_${theme}_colors.json`,
+            format: 'json/collect',
+            filter: (token) => token.$type === 'color',
+          },
+        ],
       },
     },
   });
@@ -162,8 +169,8 @@ for (const theme of themes) {
 // Use unprefixed names for matching
 const modeTokenNames = new Set(
   colorsByTheme.light
-    .filter(token => !token.path[0].startsWith('colors'))
-    .map(token => token.name.replace(`${cssPrefix}-`, ''))
+    .filter((token) => !token.path[0].startsWith('color'))
+    .map((token) => token.name.replace(`${cssPrefix}-`, '')),
 );
 
 // Build mode.css with light-dark() functions
@@ -261,12 +268,14 @@ for (const theme of themes) {
           {
             destination: 'StyleDictionarySize.h',
             format: 'ios/static.h',
-            filter: (token) => ['dimension', 'spacing', 'borderRadius', 'fontSizes'].includes(token.$type),
+            filter: (token) =>
+              ['dimension', 'spacing', 'borderRadius', 'fontSizes'].includes(token.$type),
           },
           {
             destination: 'StyleDictionarySize.m',
             format: 'ios/static.m',
-            filter: (token) => ['dimension', 'spacing', 'borderRadius', 'fontSizes'].includes(token.$type),
+            filter: (token) =>
+              ['dimension', 'spacing', 'borderRadius', 'fontSizes'].includes(token.$type),
           },
         ],
       },
@@ -282,7 +291,8 @@ for (const theme of themes) {
           {
             destination: 'dimens.xml',
             format: 'android/dimens',
-            filter: (token) => ['dimension', 'spacing', 'borderRadius', 'fontSizes'].includes(token.$type),
+            filter: (token) =>
+              ['dimension', 'spacing', 'borderRadius', 'fontSizes'].includes(token.$type),
           },
           {
             destination: 'font_dimens.xml',
