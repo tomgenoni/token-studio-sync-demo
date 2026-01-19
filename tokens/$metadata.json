@@ -3,7 +3,7 @@
     "palette",
     "dimension",
     "type",
-    "light",
-    "dark"
+    "mode/light",
+    "mode/dark"
   ]
 }

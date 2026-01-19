@@ -4,8 +4,8 @@
     "name": "light",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "light": "enabled",
-      "palette": "source"
+      "palette": "source",
+      "mode/light": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:40004004:3765",
     "$figmaModeId": "40004004:33",
@@ -28,8 +28,8 @@
     "name": "dark",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "dark": "enabled",
-      "palette": "source"
+      "palette": "source",
+      "mode/dark": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:40004004:3765",
     "$figmaModeId": "40004004:34",
