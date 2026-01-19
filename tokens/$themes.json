@@ -7,19 +7,19 @@
       "palette": "source",
       "mode/light": "enabled"
     },
-    "$figmaCollectionId": "VariableCollectionId:40004005:4779",
-    "$figmaModeId": "40004005:38",
+    "$figmaCollectionId": "VariableCollectionId:40004005:4920",
+    "$figmaModeId": "40004005:43",
     "$figmaVariableReferences": {
-      "fg.default": "39a71086969a251c5a7db7def1c85534325c3281",
-      "fg.muted": "20d46d2c0bfb78f13860ef15b26d60c8857a7d89",
-      "fg.subtle": "78fa88168ab20e5e9e12206e4ac56fdb02c21b7e",
-      "bg.default": "17a16293e29e45bd8b3f685c09cb30ea8d6e573a",
-      "bg.muted": "ee5f1f1128fbfe3c56eb052ce9f7f2d27b607e93",
-      "bg.subtle": "922da46bb36f95aeab81548c235dac16db97f1e9",
-      "accent.default": "4e67387695b83267357a6aedeb24c25fd2a675f7",
-      "accent.onAccent": "3aa18727f2f6bddbe3282be9a661155f690f0f7a",
-      "accent.bg": "7db0c24d38d02e3446cda42db7b6d7b907129dcc",
-      "shadows.default": "75dde35ab5f0169746aadadf9a7f36ee8cbdd029"
+      "fg.default": "ace0db1b646c544bad7252103221ed61b63f1e09",
+      "fg.muted": "a29f448cce6d7bf00cf466b45a328769abeef02c",
+      "fg.subtle": "719526df21648b1b451a697bdc43f440f14555a1",
+      "bg.default": "201290f502154430ffb7f8231e210fd406499c15",
+      "bg.muted": "d8141613bac6cf1189f85c74f25d72de6298bc4b",
+      "bg.subtle": "0626c9ef4dfa80bde0007cdc52f5a52cd2817e85",
+      "accent.default": "1ac68dbca3d4895a3d3a1dc11e2f8f32875c1b2c",
+      "accent.onAccent": "5de6897684a019eecee53ed85dec937b45442ba1",
+      "accent.bg": "b6b1cec3d50abf1f3f05a3aa0b3b58533a20205a",
+      "shadows.default": "5de9fc9b985a94d450106f80e25ffb16cabce184"
     },
     "group": "mode"
   },
@@ -31,19 +31,19 @@
       "palette": "source",
       "mode/dark": "enabled"
     },
-    "$figmaCollectionId": "VariableCollectionId:40004005:4779",
-    "$figmaModeId": "40004005:39",
+    "$figmaCollectionId": "VariableCollectionId:40004005:4920",
+    "$figmaModeId": "40004005:44",
     "$figmaVariableReferences": {
-      "fg.default": "39a71086969a251c5a7db7def1c85534325c3281",
-      "fg.muted": "20d46d2c0bfb78f13860ef15b26d60c8857a7d89",
-      "fg.subtle": "78fa88168ab20e5e9e12206e4ac56fdb02c21b7e",
-      "bg.default": "17a16293e29e45bd8b3f685c09cb30ea8d6e573a",
-      "bg.muted": "ee5f1f1128fbfe3c56eb052ce9f7f2d27b607e93",
-      "bg.subtle": "922da46bb36f95aeab81548c235dac16db97f1e9",
-      "accent.default": "4e67387695b83267357a6aedeb24c25fd2a675f7",
-      "accent.onAccent": "3aa18727f2f6bddbe3282be9a661155f690f0f7a",
-      "accent.bg": "7db0c24d38d02e3446cda42db7b6d7b907129dcc",
-      "shadows.default": "75dde35ab5f0169746aadadf9a7f36ee8cbdd029"
+      "fg.default": "ace0db1b646c544bad7252103221ed61b63f1e09",
+      "fg.muted": "a29f448cce6d7bf00cf466b45a328769abeef02c",
+      "fg.subtle": "719526df21648b1b451a697bdc43f440f14555a1",
+      "bg.default": "201290f502154430ffb7f8231e210fd406499c15",
+      "bg.muted": "d8141613bac6cf1189f85c74f25d72de6298bc4b",
+      "bg.subtle": "0626c9ef4dfa80bde0007cdc52f5a52cd2817e85",
+      "accent.default": "1ac68dbca3d4895a3d3a1dc11e2f8f32875c1b2c",
+      "accent.onAccent": "5de6897684a019eecee53ed85dec937b45442ba1",
+      "accent.bg": "b6b1cec3d50abf1f3f05a3aa0b3b58533a20205a",
+      "shadows.default": "5de9fc9b985a94d450106f80e25ffb16cabce184"
     },
     "group": "mode"
   },
