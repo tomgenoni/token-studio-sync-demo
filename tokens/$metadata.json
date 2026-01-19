@@ -2,6 +2,7 @@
   "tokenSetOrder": [
     "palette",
     "dimension",
+    "type",
     "light",
     "dark"
   ]
