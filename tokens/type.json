@@ -98,5 +98,17 @@
       "$type": "fontSizes",
       "$value": "{fontSizes.body} * 0.65"
     }
+  },
+  "text": {
+    "sm": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{fontFamilies.body}",
+        "fontWeight": "{fontWeights.bodyRegular}",
+        "fontSize": "{fontSizes.body}",
+        "lineHeight": "{lineHeights.body}"
+      },
+      "$description": "Small text size"
+    }
   }
 }
