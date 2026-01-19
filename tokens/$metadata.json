@@ -1,6 +1,7 @@
 {
   "tokenSetOrder": [
-    "core",
+    "palette",
+    "dimension",
     "light",
     "dark",
     "theme"
