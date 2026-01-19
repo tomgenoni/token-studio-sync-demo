@@ -199,5 +199,14 @@
       "fontSizes.sm": "61f466a5bdf3b7d213fdb9a3b4a7bb51bbda183c",
       "fontSizes.xs": "9c8cdeb0e9e24ca4a27da5cbe5000e7cd36f2d0b"
     }
+  },
+  {
+    "id": "997b57a42b891635b02a79923324dcc6ee6ea819",
+    "name": "type",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "type": "enabled"
+    },
+    "group": "type"
   }
 ]
