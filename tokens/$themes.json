@@ -179,34 +179,40 @@
       "borderRadius.xl": "9bc83db1cb5ec1859988ae34ad3c22234991b9d0",
       "opacity.low": "db39e96cc5ed1ad5039b29fa0e1b3d4badb36463",
       "opacity.md": "7e776db0a22d0fd973d53ea2b046ca29ed265db2",
-      "opacity.high": "5fb66c82f1731eff0ca77be3db50e1b33f0bafca",
-      "fontFamilies.heading": "df3dbf2415c2ed8ed19ee26489efa8dee873d738",
-      "fontFamilies.body": "399737751cd08739ae37a11875c0476f785b68ac",
-      "letterSpacing.default": "f5bcfbda25f9de81264804fb03ad9c7329957f60",
-      "paragraphSpacing.h1": "b11db24d379a32bd041e78ad952820ce3ee4d67b",
-      "paragraphSpacing.h2": "99fb08d51deeb320da5ef91c41eb1ba41c9d8b1e",
-      "fontWeights.headingRegular": "f57478447e26e71079357d8fdcd7302ef786a6ab",
-      "fontWeights.headingBold": "91504d1c17836c0f332f8c0c189e75fe420e87b1",
-      "fontWeights.bodyRegular": "7c1ee9f1d7f7869d33d3d2d49b421528aa64ae4d",
-      "fontWeights.bodyBold": "c0918ffe7f3402646e96b516d8892990f1d5f2dd",
-      "fontSizes.h1": "922beb12949e72e000b1de002afaea1f9ec7d799",
-      "fontSizes.h2": "d140060bceb5b21ca49c89ddba4f7902be60eff4",
-      "fontSizes.h3": "6515c02523516eab1c535be08559eed867396a12",
-      "fontSizes.h4": "156c305bfaf5fe6721038ff852b83830dbdcc587",
-      "fontSizes.h5": "20466dac33b344bec3f698f75f447df6ff3f96bc",
-      "fontSizes.h6": "a6b2e2a6623d8bccb19e1e62577085176111121f",
-      "fontSizes.body": "0093955616383a71a2e7dfa9b1ff7637db04e6ea",
-      "fontSizes.sm": "61f466a5bdf3b7d213fdb9a3b4a7bb51bbda183c",
-      "fontSizes.xs": "9c8cdeb0e9e24ca4a27da5cbe5000e7cd36f2d0b"
+      "opacity.high": "5fb66c82f1731eff0ca77be3db50e1b33f0bafca"
     }
   },
   {
     "id": "997b57a42b891635b02a79923324dcc6ee6ea819",
     "name": "type",
-    "$figmaStyleReferences": {},
+    "$figmaStyleReferences": {
+      "text.sm": "S:649248d61a32c1a94daa9b0d7a971d9f2072514a,"
+    },
     "selectedTokenSets": {
       "type": "enabled"
     },
-    "group": "type"
+    "group": "type",
+    "$figmaCollectionId": "VariableCollectionId:40004004:3603",
+    "$figmaModeId": "40004004:27",
+    "$figmaVariableReferences": {
+      "fontFamilies.heading": "b51aac66d08c3c1fc10bae4b69ee9bc88e64f5bc",
+      "fontFamilies.body": "dda2b6d28d82861c2d0dcdf4f5aff503e730e0a5",
+      "letterSpacing.default": "d80c1c234d62318247803e9d29a16cd7f510eb91",
+      "paragraphSpacing.h1": "9bff6fe0ea3e23be0370ab279207d819d9534f59",
+      "paragraphSpacing.h2": "92ca076cb2233e132c1d81cba7cab76d47537ca7",
+      "fontWeights.headingRegular": "34841be4fb38f8cacc85e76a4ad77f57d415039f",
+      "fontWeights.headingBold": "08d00b2494f68404775f40feb0e77bdf3092d44c",
+      "fontWeights.bodyRegular": "46e10294b38c281f75f56ff6a4efe1f51c91aa3c",
+      "fontWeights.bodyBold": "33631a1b89955760fc371872f4dab71534e186bd",
+      "fontSizes.h1": "a98de67cbfe077cdbeccf46cec36fdc4c26718e8",
+      "fontSizes.h2": "2d2c7a34a7b1f808c0bdfc242a10dc10081da80e",
+      "fontSizes.h3": "2ffe0385b2a135b1c5c5cfe75a33604ee509e903",
+      "fontSizes.h4": "634e148439dcd4aad31b57feb3f5f6222aeda406",
+      "fontSizes.h5": "703938e44707b8737f4b78db705a4b5b18b719c6",
+      "fontSizes.h6": "71399ef72ae27038d181de9cd5b665e67eac5771",
+      "fontSizes.body": "263da2a9663bd8c18f8fede936b16ef3dc57b942",
+      "fontSizes.sm": "9a86478538a7af917b27f8c30fbb89e6e8399ec3",
+      "fontSizes.xs": "fce606d939328b6436f90eafacd27cb4ea730db0"
+    }
   }
 ]
