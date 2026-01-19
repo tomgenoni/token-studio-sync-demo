@@ -44,7 +44,7 @@
   "shadows": {
     "default": {
       "$type": "color",
-      "$value": "{colors.gray.900}"
+      "$value": "{color.gray.900}"
     }
   }
 }
