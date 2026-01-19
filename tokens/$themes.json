@@ -5,10 +5,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "light": "enabled",
-      "palette": "source",
-      "dimension": "source"
+      "palette": "source"
     },
-    "group": "mode",
     "$figmaCollectionId": "VariableCollectionId:40004004:2609",
     "$figmaModeId": "40004004:23",
     "$figmaVariableReferences": {
@@ -22,7 +20,8 @@
       "accent.onAccent": "eb649400af74a810fee68a6d02ad2d3c38e048ec",
       "accent.bg": "a4855eda368c18ba208e602c94942dc460d1eb04",
       "shadows.default": "b8e19f74b1fdcb1495c9677e3b660e5e97585b93"
-    }
+    },
+    "group": "mode"
   },
   {
     "id": "0613c8891ae05cb328ad80c671d1d5daf5e7e5a0",
@@ -30,10 +29,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "dark": "enabled",
-      "palette": "source",
-      "dimension": "source"
+      "palette": "source"
     },
-    "group": "mode",
     "$figmaCollectionId": "VariableCollectionId:40004004:2609",
     "$figmaModeId": "40004004:24",
     "$figmaVariableReferences": {
@@ -47,7 +44,8 @@
       "accent.onAccent": "eb649400af74a810fee68a6d02ad2d3c38e048ec",
       "accent.bg": "a4855eda368c18ba208e602c94942dc460d1eb04",
       "shadows.default": "b8e19f74b1fdcb1495c9677e3b660e5e97585b93"
-    }
+    },
+    "group": "mode"
   },
   {
     "id": "e07ffeb258ae32a94dee4bd926c30a0ee27d4c4e",
