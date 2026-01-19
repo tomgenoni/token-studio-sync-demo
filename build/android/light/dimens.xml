@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly, this file was auto-generated.
+-->
+<resources>
+  <dimen name="dimensionScale">4px</dimen>
+  <dimen name="dimensionXs">4px</dimen>
+  <dimen name="dimensionSm">16px</dimen>
+  <dimen name="dimensionMd">64px</dimen>
+  <dimen name="dimensionLg">256px</dimen>
+  <dimen name="dimensionXl">1024px</dimen>
+  <dimen name="spacingXs">4px</dimen>
+  <dimen name="spacingSm">16px</dimen>
+  <dimen name="spacingMd">64px</dimen>
+  <dimen name="spacingLg">256px</dimen>
+  <dimen name="spacingXl">1024px</dimen>
+  <dimen name="spacingMultiValue">16px 1024px</dimen>
+  <dimen name="borderRadiusSm">4px</dimen>
+  <dimen name="borderRadiusLg">8px</dimen>
+  <dimen name="borderRadiusXl">16px</dimen>
+  <dimen name="borderRadiusMultiValue">4px 8px</dimen>
+  <dimen name="letterSpacingDefault">0</dimen>
+  <dimen name="letterSpacingIncreased">1.5em</dimen>
+  <dimen name="letterSpacingDecreased">-0.05em</dimen>
+  <dimen name="paragraphSpacingH1">32px</dimen>
+  <dimen name="paragraphSpacingH2">26px</dimen>
+</resources>
