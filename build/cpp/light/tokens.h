@@ -136,6 +136,7 @@ namespace DesignTokens {
     const auto FONTSIZESBODY = 16;
     const auto FONTSIZESSM = 13.6f;
     const auto FONTSIZESXS = 10.4f;
+    const auto TEXTSM = 400;
     const unsigned int FGDEFAULT = 0xFF000000;
     const unsigned int FGMUTED = 0xFF4A5568;
     const unsigned int FGSUBTLE = 0xFFA0AEC0;

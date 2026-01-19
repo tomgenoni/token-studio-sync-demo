@@ -1,0 +1,25 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --pdl-dimension-scale: 4px;
+  --pdl-dimension-xs: 4px;
+  --pdl-border-radius-sm: 4px;
+  --pdl-border-radius-lg: 8px;
+  --pdl-border-radius-xl: 16px;
+  --pdl-opacity-low: 0.1;
+  --pdl-opacity-md: 0.5;
+  --pdl-opacity-high: 0.9;
+  --pdl-dimension-sm: var(--pdl-dimension-xs) * var(--pdl-dimension-scale);
+  --pdl-spacing-xs: var(--pdl-dimension-xs);
+  --pdl-border-radius-multi-value: var(--pdl-border-radius-sm) var(--pdl-border-radius-lg); /** You can have multiple values in a single radius token. Read more on these: https://docs.tokens.studio/available-tokens/border-radius-tokens#single--multiple-values */
+  --pdl-dimension-md: var(--pdl-dimension-sm) * var(--pdl-dimension-scale);
+  --pdl-spacing-sm: var(--pdl-dimension-sm);
+  --pdl-dimension-lg: var(--pdl-dimension-md) * var(--pdl-dimension-scale);
+  --pdl-spacing-md: var(--pdl-dimension-md);
+  --pdl-dimension-xl: var(--pdl-dimension-lg) * var(--pdl-dimension-scale);
+  --pdl-spacing-multi-value: var(--pdl-dimension-sm) var(--pdl-dimension-xl); /** You can have multiple values in a single spacing token. Read more on these: https://docs.tokens.studio/available-tokens/spacing-tokens#multi-value-spacing-tokens */
+  --pdl-spacing-lg: var(--pdl-dimension-lg);
+  --pdl-spacing-xl: var(--pdl-dimension-xl);
+}
