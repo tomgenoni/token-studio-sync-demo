@@ -6,7 +6,7 @@
     },
     "xs": {
       "$type": "dimension",
-      "$value": "4"
+      "$value": "4px"
     },
     "sm": {
       "$type": "dimension",
