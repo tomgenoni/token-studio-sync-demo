@@ -1,9 +1,0 @@
-{
-  "tokenSetOrder": [
-    "palette",
-    "dimension",
-    "type",
-    "mode/light",
-    "mode/dark"
-  ]
-}
